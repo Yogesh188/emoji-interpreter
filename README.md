@@ -3,7 +3,7 @@ what is this app?
 This app will tell you the meaning of emoji you paste in the textbox.
 also, you can click on existing emoji in the page and get meaning of it.
 
-Technolpgy stack uised: react (Javascript), HTML and CSS
+Technolpgy stack used: react (Javascript), HTML and CSS
 
 Key concepts used
 -react
