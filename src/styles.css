@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input {
+  padding: 1rem;
+  width: 80%;
+  height: 10%;
+}
+
+#meaningDiv {
+  padding-top: 1rem;
+  font-size: x-large;
+  color: black;
+  text-shadow: 0 0 10px rgb(251, 255, 0);
+}
+
+input {
+  font-size: 2rem;
+}
