@@ -3,9 +3,14 @@
   text-align: center;
 }
 
+body {
+  max-width: 80%;
+  margin: auto;
+}
+
 input {
   padding: 1rem;
-  width: 80%;
+  width: 70%;
   height: 10%;
 }
 

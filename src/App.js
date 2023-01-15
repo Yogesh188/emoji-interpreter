@@ -48,7 +48,7 @@ const emojiDictionary = {
 
 var emojiArray = Object.keys(emojiDictionary);
 
-var emojiPlaceholder="";
+var emojiPlaceholder = "";
 
 export default function App() {
   const [meaning, setMeaning] = useState("");
@@ -66,13 +66,16 @@ export default function App() {
   function emojiClickHandler(emoji) {
     var meaning = emojiDictionary[emoji];
     setMeaning(meaning);
-    emojiPlaceholder=emoji;
+    emojiPlaceholder = emoji;
   }
 
   return (
     <div className="App">
       <h1>Emoji interpreter</h1>
-      <input onChange={emojiInputHandler} placeholder={emojiPlaceholder}></input>
+      <input
+        onChange={emojiInputHandler}
+        placeholder={emojiPlaceholder}
+      ></input>
       <div id="meaningDiv">{meaning}</div>
       <h3>Emoji's we have</h3>
 
@@ -81,8 +84,8 @@ export default function App() {
           <span
             onClick={() => emojiClickHandler(emoji)}
             style={{
-              fontSize: "1.5rem",
-              padding: "0.5rem 0.5rem",
+              fontSize: "2rem",
+              padding: "1rem 1rem",
               cursor: "pointer"
             }}
             key={emoji}
