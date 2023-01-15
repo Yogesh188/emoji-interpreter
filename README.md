@@ -15,7 +15,7 @@ react (Javascript), HTML and CSS
 -other userdefined functions
 
 #### Deployed at (see this app in action here):
-https://7sh103.csb.app/
+https://what-this-emoji-means.netlify.app
 
 #### Contact for update/Suggestion/error
 yogeshkumbhar188@gmail.com
